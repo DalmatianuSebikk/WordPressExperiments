@@ -3,7 +3,7 @@ version: '3.8'
 services:
   wordpress:
     image: wordpress:latest
-    container_name: wp_apppresser
+    container_name: wordpress_experiments
     restart: always
     ports:
       - "8080:80"
