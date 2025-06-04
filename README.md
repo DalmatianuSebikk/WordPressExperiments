@@ -3,10 +3,11 @@
 ## Introduction
 
 I created a case study about several multi-factor authentication vulnerabilities using ***WordPress*** and vulnerable plugins that had no publicly available proof of concept:
-    - WP User Switch
-    - OTPLogin 
-    - WP 2FA with Telegram
-    - AppPresser (can't be exploited due to paywall, static analysis only)
+
+- WP User Switch
+- OTPLogin 
+- WP 2FA with Telegram
+- AppPresser (can't be exploited due to paywall, static analysis only)
 
 ## Setup
 
