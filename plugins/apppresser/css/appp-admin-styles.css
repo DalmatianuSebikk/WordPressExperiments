@@ -1,0 +1,285 @@
+/** Tooltip hover styles **/
+
+.apppresser_settings .help {
+	background: rgb(220,220,220);
+	border-radius: 50%;
+	color: rgb(0, 0, 0);
+	display: inline-block;
+	height: 15px;
+	margin-left: 5px;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: none;
+	width: 15px;
+	font-weight: normal;
+}
+.apppresser_settings.mp6 .help {
+	line-height: 15px;
+}
+.form-table .appp-section-title {
+	padding-bottom: 0;
+}
+.appp-section-title h3 {
+	margin: 0;
+}
+.apppresser_settings .form-table {
+	display: none;
+	padding-top: .6em;
+}
+.apppresser_settings .form-table.nav-tab-active {
+	display: block;
+}
+.appp-ajax-results-help {
+	display:none;
+	margin: 10px 0 -8px 7px !important;
+}
+.submit .appp-tabs {
+	margin: 0 10px;
+	display: none;
+}
+.appp-tabs.nav-tab-active {
+	display: inline;
+}
+
+.subtabs-wrapper > td {
+	padding: 0 10px;
+}
+
+.subtabs-wrapper ul {
+	padding: 10px 15px 0 0;
+	line-height: 1.3;
+	vertical-align: middle;
+}
+
+.appp-subtab {
+	display: none;
+}
+
+.appp-subtab.subnav-tab-active {
+	display: table;
+}
+
+.license_key.description span {
+	color: white;
+	display: block;
+	background: #49C749;
+	text-align: center;
+	font-weight: bold;
+	font-style: normal;
+	text-transform: uppercase;
+	margin: -5px 1px;
+	width: 25em;
+}
+.mp6 .license_key.description span {
+	font-size: 14px;
+}
+.license_key.description span.inactive {
+	background: #F14949;
+}
+.license_key.description span.inactive a {
+	color: #fff;
+}
+
+.appp-addon {
+	background: #fafafa;
+	border: 1px solid #eee;
+	padding: 1em;
+	margin: 0 1% 1em 0;
+	min-width: 200px;
+	max-width: 300px;
+	width: 30%;
+	position: relative;
+	float: left;
+	height: 515px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.appp-addon img {
+	max-width: 100%;
+	width: 300px;
+	height: auto;
+}
+
+.appp-addon h2 {
+	margin-bottom: 10px;
+}
+
+@media screen and (max-width:600px) {
+	.appp-addon {
+		width: 100%;
+		max-width: 100%;
+		float: none;
+		margin-right: 0;
+	}
+}
+
+.appp-quickstart td {
+	border:1px solid white;
+	background-color:white;
+	position: relative;
+	padding: 0 16px 16px;
+	margin-top: 16px;
+}
+.appp-quickstart .close-button {
+	background-color: #666;
+	float:right;
+	padding:12px;
+	margin-right: 12px;
+	line-height: 3px;
+}
+
+.appp-quickstart h2 {
+	text-align: center;
+	margin: 10px 0 16px;
+	font-size: 1.6em;
+}
+
+.appp-quickstart table {
+	width: 100%;
+}
+
+.appp-quickstart table td {
+	width: 33%;
+}
+@media screen and (max-width: 782px) {
+	.appp-quickstart table td {
+		width: 92%;
+	}	
+}
+
+
+.appp-quickstart-content h3 {
+	margin: 6px 0;
+}
+
+.appp-quickstart-content td {
+	vertical-align: top;
+	position: relative;
+}
+
+.appp-quickstart-content .control {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	left: 50%;
+	margin-left: -50%;
+	margin-bottom: -24px;
+	height: 30px;
+}
+
+.about-description {
+	margin-top: 50px !important;
+}
+
+#the-plugin-appp-quickstart .close-button {
+	position: absolute;
+	margin: 0 2px;
+	right: 4px;
+	top: 6px;
+	border-radius: 2px;
+	padding: 4px 8px;
+	text-decoration: none;
+	border: none;
+	-webkit-border-radius: 2px;
+	border-radius: 32px;
+	text-shadow: none;
+	font-weight: 600;
+	font-size: 10px;
+	height: 24px;
+	cursor: pointer;
+	width: 24px;
+	
+	border: 1px solid #fafafa;
+	background-color: #eee;
+	color: #aaa;
+}
+
+#the-plugin-appp-quickstart .close-button:focus {
+	outline:none;
+}
+
+#the-plugin-appp-quickstart .close-button:hover {
+	border: 1px solid #ddd;
+	background: #fafafa;
+	color: #777;
+}
+
+@media screen and (max-width: 782px) {
+
+	#the-plugin-appp-quickstart {
+		padding: 12px;
+	}
+
+	.appp-quickstart-content .control {
+		position: relative;
+		width: 100%;
+		bottom: auto;
+		left: auto;
+		margin: 0 10px 0 20px;
+	}
+
+	.about-description {
+		margin-top: 0px !important;
+	}
+}
+
+.appp-quickstart .appp-quickstart-close {
+	position:absolute;
+	top:5px;
+	right:10px;
+	padding:8px 3px;
+	font-size:13px;
+	text-decoration:none;
+	line-height:1
+}
+
+.appp-quickstart .appp-quickstart-close:before {
+	content:' ';
+	position:absolute;
+	left:-12px;
+	width:10px;
+	height:100%;
+	background:url("../../../../wp-admin/images/xit.gif") 0 17% no-repeat;
+}
+.appp-quickstart .appp-quickstart-close:hover:before {
+	background-position:100% 17%;
+}
+
+.appp-quickstart table {
+	width: 100%;
+}
+
+.appp-quickstart td {
+	text-align: center;
+}
+
+/* apppush */
+#notify_url {
+    width: 99%;
+}
+
+.apppresser_settings .description-tbl td {
+	margin-bottom: 0;
+	padding: 0;
+	vertical-align: top;
+}
+
+.apppresser_settings ul.checkbox-description {
+	margin: 0;
+	display: inline-block;
+}
+
+.apppresser_settings p.sysinfo-download {
+	margin-top: 1em;
+}
+textarea#appp-system-info {
+	background: none;
+	font-family: Menlo, Monaco, monospace;
+	display: block;
+	overflow: auto;
+	white-space: pre;
+	width: 800px;
+	height: 400px;
+}
